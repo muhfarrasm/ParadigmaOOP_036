@@ -33,14 +33,14 @@ public:
 
 	}
 	string perkenalan() {
-		return "Helo, nama saya " + nama + "dari sekolah" + sekolah + "\n\n";
+		return "Helo, nama saya " + nama + " dari sekolah " + sekolah + "\n\n";
 	}
 
 };
 
 
 int main() {
-	pelajar siswa1("andi laksono", "SMA N 1");
+	pelajar siswa1(" Muhammad Farras Mas'ud ", " SMK SMTI YK ");
 	cout << siswa1.perkenalan();
 	cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
 
